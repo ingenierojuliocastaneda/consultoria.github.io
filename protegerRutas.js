@@ -10,7 +10,7 @@ function verificarAcceso() {
     // Verifica si la ruta actual está en la lista de rutas protegidas y si el usuario no está autenticado
     if (rutasProtegidas.includes(rutaActual) && !usuarioAutenticado) {
       // Redirige al usuario a la página de inicio de sesión (cambia "inicio-de-sesion.html" por tu URL real)
-      window.location.href = '/Logged_out.html';
+      window.location.href = '/consultoria.github.io/Logged_out.html';
     }
   }
   
@@ -24,6 +24,6 @@ sessionStorage.setItem('usuarioAutenticado', 'true');
 sessionStorage.removeItem('usuarioAutenticado');
 
 // Redirige al usuario a la página de inicio de sesión
-window.location.href = '/Logged_out.html';
+window.location.href = '/consultoria.github.io/Logged_out.html';
 
   
