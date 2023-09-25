@@ -1,5 +1,5 @@
 // Define las rutas protegidas
-const rutasProtegidas = ['/index.html'];
+const rutasProtegidas = ['/consultoria.github.io/index.html'];
 // Verifica si el usuario está autenticado (puedes usar sessionStorage o localStorage)
 const usuarioAutenticado = sessionStorage.getItem('usuarioAutenticado');
 // Función para verificar el acceso a rutas protegidas
